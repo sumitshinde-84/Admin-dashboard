@@ -17,8 +17,7 @@ font-family: 'Roboto', sans-serif;
   display: grid; 
   grid-template-columns:minmax(150px,200px ) 7fr;
   grid-template-rows: minmax(100px ,150px) 4fr; 
-  overflow-x: hidden;
-  overflow-y: auto;
+ 
   justify-content: space-around;
  
 }
@@ -98,6 +97,7 @@ grid-row: 2 / 3;
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: 3fr 2fr 1fr;
+
     
 }
 
@@ -114,13 +114,14 @@ grid-template-rows: 3fr 2fr 1fr;
 }
 
 .menu ul li{
-padding: 8px 100vw;
+padding: 8px 150px;
 font-size: 15px;
 }
 
 .menu ul li:hover{
-    padding: 12px 100vw;
+    padding: 8px 150px;
     background-color: rgb(61, 61, 230) ;
+    font-size: 15px;
 }
 /* header section in which contain options */
 
@@ -201,6 +202,7 @@ right: 10px;
 
 .profile h3{
     position: relative;
+    font-size: 15px;
     top: 15px;
     left: 5px;
 }
@@ -233,6 +235,12 @@ bottom: -10px;
 font-weight: 600;
 
 }
+
+.greet-text p{
+    font-size:10px;
+    
+    }
+
 
 .greet-text h1{
     font-size:15px;

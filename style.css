@@ -15,7 +15,7 @@ font-family: 'Roboto', sans-serif;
   width: 100vw;
   height: 100vh;
   display: grid; 
-  grid-template-columns:minmax(150px,200px ) 5fr;
+  grid-template-columns:minmax(150px,200px ) 1fr;
   grid-template-rows: minmax(100px ,200px) 4fr; 
   overflow-x: hidden;
   overflow-y: auto;
@@ -145,7 +145,8 @@ padding: 12px 100vw;
     align-items: center;
     position: relative;
     top: 30px;
-    left: 10px;
+    left: 5px;
+    right: 40px;
     
 
     

@@ -64,8 +64,8 @@ font-family: 'Roboto', sans-serif;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 4px;
     margin-right: 10px;
-   
-
+    
+    
 }
 
 .text{
@@ -114,7 +114,8 @@ grid-template-rows: 3fr 2fr 1fr;
 }
 
 .menu ul li{
-padding: 12px 100vw;
+padding: 8px 100vw;
+font-size: 15px;
 }
 
 .menu ul li:hover{
@@ -124,7 +125,7 @@ padding: 12px 100vw;
 /* header section in which contain options */
 
 .header{
-
+    
     background-color:white;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -132,10 +133,17 @@ padding: 12px 100vw;
     -moz-box-shadow: -1px 15px 16px -5px rgba(0,0,0,0.53);
     box-shadow: -1px 15px 16px -5px rgba(0,0,0,0.53);
     z-index: 1;
-
+    
 }
 
 
+.header input[type='search']{
+    border-radius: 20px;
+    width: 400px;
+    height: 25px;
+    background-color: whitesmoke;
+
+}
 
 .options{
     display: grid;
@@ -227,7 +235,7 @@ font-weight: 600;
 }
 
 .greet-text h1{
-    font-size:20px;
+    font-size:15px;
     
     }
 
@@ -239,7 +247,7 @@ font-weight: 600;
 }
 
 .btns button{
-padding: 10px 15px;
+padding: 8px 12px;
 background-color: rgb(82, 82, 255);
 border-radius: 20px;
 border: none;
@@ -249,7 +257,7 @@ font-weight: 600;
 }
 
 .btns button:hover{
-    padding: 10px 15px;
+    padding: 8px 12px;
     background-color: rgb(65, 65, 210);
     border-radius: 20px;
     border: none;
@@ -257,16 +265,9 @@ font-weight: 600;
     color: white;
     font-weight: 600;
     }
+    
+    
 
-
-
-.header input[type='search']{
-    border-radius: 20px;
-    width: 500px;
-    height: 30px;
-    background-color: whitesmoke;
-
-}
 
 
 /* article section in which contain cards  */

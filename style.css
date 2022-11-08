@@ -32,7 +32,7 @@ font-family: 'Roboto', sans-serif;
     grid-row: 1 / 3;
     display: grid;
     
-    grid-template-rows:  1fr 4fr;
+    grid-template-rows:  10% 60%;
 
     background-color: rgb(82, 82, 255);
     justify-content: center;
@@ -142,7 +142,9 @@ font-size: 15px;
     border-radius: 20px;
     width: 400px;
     height: 25px;
-    background-color: whitesmoke;
+    background-color: rgb(218, 214, 214);
+    border: none;
+    outline: none;
 
 }
 
@@ -153,7 +155,7 @@ font-size: 15px;
     position: relative;
     top: 15px;
     left: 5px;
-    
+    left: 20px;
     
 
     
@@ -163,10 +165,10 @@ font-size: 15px;
 
 .search-icons img{
 
-    width: 25px;
+    width: 20px;
     align-items: center;
     position: relative;
-    top: 10px;
+    top: 8px;
 
     
 }
@@ -191,6 +193,7 @@ right: 10px;
     align-items: center;
     position: relative;
     top: 10px;
+    left: 20px;
     
 
 }
@@ -208,8 +211,8 @@ right: 10px;
 }
 
 .profile img{
-width: 30px;
-height: 30px;
+width: 25px;
+height: 25px;
 position: relative;
 bottom: -10px;
 }
@@ -222,8 +225,8 @@ bottom: -10px;
 }
 
 .greet img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .greet-text{

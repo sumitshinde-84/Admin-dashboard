@@ -19,6 +19,7 @@ font-family: 'Roboto', sans-serif;
   grid-template-rows: minmax(80px ,100px) 4fr; 
   justify-content: space-around;
   overflow-x: hidden;
+  overflow-y: auto;
   background-color: rgb(220, 227, 243);
  
 }

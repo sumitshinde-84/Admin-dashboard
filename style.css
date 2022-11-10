@@ -17,7 +17,7 @@
 /* length and width section */
 
 --container-width:100vw;
---container-height:auto;
+--container-height:100vh;
 
 --input-width:600px;
 --input-height:20px;
@@ -149,8 +149,7 @@ font-family: 'Roboto', sans-serif;
   grid-template-columns:minmax(100px,150px) 7fr;
   grid-template-rows: minmax(100px ,120px) 4fr; 
   justify-content: space-around;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: auto;
   background-color: var(--container-bg);
  
 }
@@ -501,7 +500,7 @@ right: var(--bail-icon-right-position);
    display: grid;
    justify-content: center;
    align-items: center;
-   
+   cursor: pointer;
 
 }
 
@@ -593,6 +592,7 @@ right: var(--bail-icon-right-position);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
     
 }
 
@@ -606,7 +606,7 @@ right: var(--bail-icon-right-position);
     flex-direction: column;
    align-items: center;
    gap: var(--sect-2-gap);
-    
+   cursor: pointer;    
 
 }
 
